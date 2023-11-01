@@ -1,0 +1,52 @@
+// --------------------- COLORS
+
+$ui-text-primary:      black;
+
+
+
+
+// --------------------- SIZES
+
+
+
+
+// --------------------- BREAKPOINTS
+
+$ui-breakpoint-xxl:		"1400px"; //max-width
+$ui-breakpoint-xxl-min:	"1401px"; // min-width
+
+$ui-breakpoint-xl:		"1200px";
+$ui-breakpoint-xl-min:	"1201px";
+
+$ui-breakpoint-l:		"992px";
+$ui-breakpoint-l-min:	"993px";
+
+$ui-breakpoint-m:		"768px";
+$ui-breakpoint-m-min:	"769px";
+
+$ui-breakpoint-s:		"576px";
+$ui-breakpoint-s-min:	"577px";
+
+$ui-breakpoint-xs:		"480px";
+$ui-breakpoint-xs-min:	"481px";
+
+
+
+// --------------------- Z-INDEX
+
+$ui-index-1: 1; // hover elements
+$ui-index-2: 2; // hover elements
+$ui-index-3: 3; // hover elements
+$ui-index-4: 4; // hover elements
+$ui-index-5: 5; // hover elements
+
+$ui-index-6: 6; // darkening and blur masks
+$ui-index-7: 7; // sidebars
+$ui-index-8: 8; // modals
+$ui-index-9: 9; // above-all elements
+
+
+
+// --------------------- TRANSITIONS
+
+$ui-transition-default: 0.2s;

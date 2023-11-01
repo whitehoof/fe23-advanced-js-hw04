@@ -1,0 +1,9 @@
+@mixin default-font {
+
+}
+
+@mixin heading-font {
+	@include default-font;
+
+}
+
