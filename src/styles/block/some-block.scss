@@ -1,0 +1,94 @@
+body {
+	background-color: $ui-bg-primary;
+	color: $ui-text-primary;
+	background-image: url("../images/stars-tile.jpg");
+	background-position: center;
+}
+
+.container {
+	margin: 0 auto;
+	padding-inline: 3em;
+	max-width: $ui-breakpoint-xl;
+	// background-color: #fff2;
+}
+
+.hidden {
+	display: none;
+}
+
+.yoda {
+	color: $ui-text-yoda;
+	&::selection {
+		@include selection;
+		background-color: $ui-text-yoda;
+	}
+}
+
+.film {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.4em;
+	
+	&__characters {
+		padding-bottom: 0.62em;
+		
+		color: $ui-text-accent;
+		font-size: 0.85em;
+		line-height: 1.4em;
+		font-weight: 900;
+	}
+
+	&__name {
+		padding-top: 1.62em;
+		padding-bottom: 0.4em;
+
+		color: $ui-text-accent;
+		font-family: 'Soloist3D', 'Arial Black', sans-serif;
+		font-size: 3em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		line-height: 1.1em;
+		
+		&::selection {
+			@include selection;
+		}
+	}
+	
+	&__episodeid {
+		margin-right: 0.4em;
+
+		font-family: 'Soloist3D', 'Arial Black', sans-serif;
+		text-transform: uppercase;
+
+		&::selection {
+			@include selection;
+		}
+	}
+
+	&__openingcrawl {
+		font-weight: 100;
+		&::selection {
+			@include selection;
+		}
+	}
+
+	&__characters {
+		// for preloader animation:
+		display: flex;
+		flex-direction: column;
+		justify-content: center; 
+  		align-items: center; 
+	}
+
+	&__characters--list {
+		font-family: 'Arial', sans-serif;
+		font-weight: 900;
+		font-size: 1.3em;
+		line-height: 1.3;
+		&::selection {
+			@include selection;
+		}
+	}
+}
+

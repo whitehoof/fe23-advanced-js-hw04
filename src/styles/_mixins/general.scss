@@ -7,3 +7,7 @@
 
 }
 
+@mixin selection {
+	color: $ui-bg-primary;
+	background-color: $ui-text-accent;
+}

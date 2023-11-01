@@ -46,6 +46,12 @@ const css = () => {
 	;
 };
 
+const fonts = () => {
+	return gulp.src('./src/fonts/*.{ttf,otf}')				// take all font files from source folder
+		.pipe(gulp.dest('./dist/fonts'))						// put them into the destination folder
+	;
+};
+
 const cleanDist = () => {
 	return gulp.src('./dist', {read: false, allowEmpty: true})	// delete the destination folder if it exists
 		.pipe(clean())
@@ -83,6 +89,7 @@ gulp.task('script', js);
 gulp.task('style', css);
 gulp.task('browser-sync', server);
 gulp.task('image', image);
+gulp.task('fonts', fonts);
 
 
 
@@ -93,11 +100,11 @@ gulp.task('image', image);
 
 gulp.task('dev', gulp.series(
 	cleanDist, 
-	gulp.parallel(html, css, js, image),
+	gulp.parallel(html, css, js, image, fonts),
 	gulp.parallel(server, watcher)
 ));
 
 gulp.task('build', gulp.series(
 	cleanDist, 
-	gulp.parallel(html, css, js, image)
+	gulp.parallel(html, css, js, image, fonts)
 ));

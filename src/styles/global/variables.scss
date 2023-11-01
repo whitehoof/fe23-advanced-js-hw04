@@ -1,6 +1,9 @@
 // --------------------- COLORS
 
-$ui-text-primary:      black;
+$ui-text-primary:	#ddd;
+$ui-text-yoda:		#5b8d05;
+$ui-text-accent:	#fefe55;
+$ui-bg-primary:		#060606;
 
 
 
@@ -12,23 +15,23 @@ $ui-text-primary:      black;
 
 // --------------------- BREAKPOINTS
 
-$ui-breakpoint-xxl:		"1400px"; //max-width
-$ui-breakpoint-xxl-min:	"1401px"; // min-width
+$ui-breakpoint-xxl:		1400px; //max-width
+$ui-breakpoint-xxl-min:	1401px; // min-width
 
-$ui-breakpoint-xl:		"1200px";
-$ui-breakpoint-xl-min:	"1201px";
+$ui-breakpoint-xl:		1200px;
+$ui-breakpoint-xl-min:	1201px;
 
-$ui-breakpoint-l:		"992px";
-$ui-breakpoint-l-min:	"993px";
+$ui-breakpoint-l:		992px;
+$ui-breakpoint-l-min:	993px;
 
-$ui-breakpoint-m:		"768px";
-$ui-breakpoint-m-min:	"769px";
+$ui-breakpoint-m:		768px;
+$ui-breakpoint-m-min:	769px;
 
-$ui-breakpoint-s:		"576px";
-$ui-breakpoint-s-min:	"577px";
+$ui-breakpoint-s:		576px;
+$ui-breakpoint-s-min:	577px;
 
-$ui-breakpoint-xs:		"480px";
-$ui-breakpoint-xs-min:	"481px";
+$ui-breakpoint-xs:		480px;
+$ui-breakpoint-xs-min:	481px;
 
 
 
